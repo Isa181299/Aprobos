@@ -1,0 +1,91 @@
+<html>
+
+<head>
+
+<style>	    body{
+
+		background-color: #FFFFFF;       
+
+	}
+
+    h1{
+
+		color: blue; 
+
+      text-align:center;
+
+        font-family:Verdana;
+
+        font-size:16px
+
+	}
+
+    
+
+</style>
+
+<title>Login
+
+</title>
+
+</head>
+
+<body><marquee> Ayudanos a encontrarles su hogar </marquee>    <hr/><h1>PET TO THE RESCUE </h1><br>
+
+<h2>Log in</h2>
+
+<SCRIPT  language=JavaScript> function go(){
+
+		if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO')
+
+		{         document.form.submit();     }     
+
+		else{          
+
+			alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");     
+
+	
+
+		} 
+
+	
+
+  <p><a href="#">Forgot your password?</a>
+
+            <input type="password">
+
+            <div id="lower">
+
+                <input type="checkbox"><label class="check" for="checkbox">Keep me logged in</label>
+
+      
+
+	
+
+	
+
+	
+
+		
+
+	
+
+	
+
+	} 
+
+	</SCRIPT> 
+
+	<FORM name=form action="TU_PAGINA_WEB.HTML">
+
+		<P>Usuario:    <INPUT type=text name=login> 
+
+			<P>Contraseña: <INPUT type=password name=password> 
+
+				<INPUT onclick=go() type=button value=Acceder>
+
+</FORM> 
+
+</body>
+
+</html>
