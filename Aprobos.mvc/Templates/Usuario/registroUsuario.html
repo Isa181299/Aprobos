@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8"></META>
+
+<link rel="stylesheet" href="./form-submit.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<style>
+
+	
+
+    body{
+
+		background-color: #FFFFFF;       
+
+		
+
+	}
+
+    h1{
+
+		color: blue; 
+
+      text-align:center;
+
+        font-family:Verdana;
+
+        font-size:16px;
+
+	}
+
+    h3{
+
+    background-color: #FCE4EC;	 
+
+    border: 4px solid black;
+
+    margin: 0 auto; 
+
+    width:350px;
+
+    font-family:Tahoma;
+
+   	
+
+   	font-size:13px;
+
+   
+
+}
+
+</style>
+
+<title>Page Title</title>
+
+</head>
+
+<body>
+
+	<marquee> Ayudanos a encontrarles su hogar </marquee>
+
+    <hr/>
+
+<IMG SRC="logo.png" ALIGN=TOP>
+
+<h1>PET TO THE RESCUE </h1>
+
+<br>
+
+<h2>Registro de usuarios</h2>
+
+<h3>
+
+<form action="form-register.php" method="post">
+
+<p>
+
+		<div class="row">
+
+		<div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label>Nombre</label>
+
+				<input class="form-control" type="text" name="first_name" placeholder="Ingrese su nombre"
+
+				autofocus required />
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<p>
+
+	        <div class="row">
+
+		<div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label >Apellidos</label>
+
+				<input class="form-control" type="text" name="last_name" size="30"  placeholder="Ingrese sus Apellidos"
+
+				autofocus required />
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>	
+
+<p>
+
+	        <div class="row">
+
+		<div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label >Correo</label>
+
+				<input class="form-control" type="email" name="email"placeholder="Ingrese su correo" required>
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<p>
+
+	        <div class="row">
+
+		<div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label >Contraseña</label>
+
+				<input class="form-control" type="password" name="password1" placeholder="Ingrese su contraseña"
+
+				minlength="11" required>
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<p>
+
+	        <div class="row">
+
+		<div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label >Confirmar contraseña</label>
+
+				<input class="form-control" type="password" name="password2"placeholder="Repetir contraseña"autofocus required>
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<p>
+
+                <div class="row">
+
+		<div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label>Celular</label>
+
+				<input class="form-control" type="number" pattern="[0-9]" name="phone"" placeholder="Ingrese su celular"
+
+				autofocus required>
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<p>
+
+	        <div class="row">
+
+		<div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label>Pais</label>
+
+<select name="País" size=9 autofocus required>
+
+     
+
+       <option value="DE">Alemania</option>
+
+       <option value="AR">Argentina</option>
+
+      <option value="AU">Australia</option>
+
+      <option value="BB">Barbados</option>
+
+      <option value="BE">Bélgica</option>
+
+      <option value="BY">Bielorrusia</option>
+
+     <option value="BO">Bolivia</option>
+
+     <option value="BR">Brasil</option>
+
+    
+
+     <option value="CA">Canadá</option>
+
+     <option value="CL">Chile</option>
+
+     <option value="CN">China</option>
+
+     <option value="CO">Colombia</option>
+
+     <option value="KR">Corea del Norte</option>
+
+     <option value="KP">Corea del Sur</option>
+
+     <option value="CR">Costa Rica</option>
+
+     <option value="HR">Croacia </option>
+
+     <option value="DK">Dinamarca</option>
+
+     <option value="EC">Ecuador</option>
+
+     <option value="EG">Egipto</option>
+
+     <option value="SV">El Salvador</option>
+
+     <option value="ES">España</option>
+
+     <option value="US">Estados Unidos</option>
+
+     <option value="FR">Francia</option>
+
+     <option value="GT">Guatemala</option>
+
+     <option value="IT">Italia</option>
+
+     <option value="MX">México</option>
+
+     <option value="NZ">Nueva Zelanda</option>
+
+     <option value="PY">Paraguay</option>
+
+     <option value="PE">Perú</option>
+
+     <option value="PR">Puerto Rico</option>
+
+     <option value="UK">Reino Unido</option>
+
+     <option value="SE">Suecia</option>
+
+     <option value="CH">Suiza</option>
+
+     
+
+     <option value="UR">Uruguay</option>
+
+</select>
+
+				
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	       
+
+<p>	
+
+	           <div class="row">
+
+		   <div class="col-md-10 col-md-offset-2">
+
+			<div class="form-group">
+
+				<label>Dirección</label>
+
+				<input class="form-control" type="text" name="adress"placeholder="Ingrese su dirección">
+
+</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</h3>
+
+</form>	
+
+<p>
+
+<form action="/form-result.php" method="post" target="_blank">
+
+  <p>
+
+    <label><input type="checkbox" name="cb-terminosservicio" required>
+
+    </label>
+
+    Acepto los <a href="https://www.cdlibre.org/"> Términos y condiciones </a>
+
+   
+
+    
+
+    </p> 
+
+  </p>
+
+</form>
+
+</p>
+
+<form action="form-submit.html" method="post" target="_blank">
+
+  <button type="submit">Enviar</button>
+
+<p>	
+
+                
+
+</form>
+
+</body>
+
+</html> 
