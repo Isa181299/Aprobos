@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Completa un formulario para saber si cumplís con las condiciones mínimas de adopción.">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet"href="css/animate.min.css"/>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<style>
+
+	
+
+    body{
+
+		background-color: #FFFFFF;       
+
+		
+
+	}
+
+    h1{
+
+		color: blue; 
+
+      text-align:center;
+
+        font-family:Verdana;
+
+        font-size:16px;
+
+	}
+
+h2{
+
+color: purple;
+
+}
+
+    h3{
+
+    background-color: #FCE4EC;	 
+
+    border: 4px solid black;
+
+    margin: 0 auto;
+
+    width:300px;
+
+   	
+
+   	font-size:16px;
+
+   
+
+}
+
+button {
+
+background-color: #04AA6D;
+
+text-align:center;
+
+color: white;
+
+padding: 2px 8px;
+
+margin: 4px 0;
+
+border: none;
+
+cursor: pointer;
+
+width: 15%;
+
+}
+
+</style>
+
+<title>Page Title</title>
+
+</head>
+
+<body>
+
+	<marquee> Ayudanos a encontrarles su hogar </marquee>
+
+    <hr/>
+
+<IMG SRC="logo.png" ALIGN=TOP>
+
+<h1>PET TO THE RESCUE </h1>
+
+  <div class="contact_form">
+
+    <div class="formulario">   
+
+       
+
+        <h>Escríbenos y en breve nos pondremos en contacto contigo</h>
+
+          <form action="submeter-formulario.php" method="post">       
+
+      <h3>      
+
+                <p>
+
+                  <label for="nombre" class="colocar_nombre">Nombre
+
+                    <span class="obligatorio">*</span>
+
+                  </label>
+
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+
+                </p>
+
+              
+
+                <p>
+
+                  <label for="email" class="colocar_email">Email
+
+                    <span class="obligatorio">*</span>
+
+                  </label>
+
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+
+                </p>
+
+            
+
+                <p>
+
+                  <label for="telefone" class="colocar_telefono">Teléfono
+
+                  </label>
+
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+
+                </p>    
+
+       
+
+                <p>
+
+                  <label for="asunto" class="colocar_asunto">Asunto
+
+                    <span class="obligatorio">*</span>
+
+                  </label>
+
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+
+                </p>    
+
+              
+
+                <p>
+
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+
+                    <span class="obligatorio">*</span>
+
+                  </label>                     
+
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+
+                                </p>                    
+
+         </h3>     
+
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+
+                </p>          
+
+            
+
+          </form>
+
+    </div>  
+
+  </div>
+
+</body>
+
+</html>
