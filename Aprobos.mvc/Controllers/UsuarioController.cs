@@ -92,6 +92,7 @@ namespace Aprobos.mvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("IdUsuario,NombreUsuario,ApellidoUsuario,CelularUsuario,DirecciónUsuario,IdPais,FechaNacimientoUsuario,CorreoUsuario,ContraseñaUsuario,GeneroUsuario,FotoUsuario,EstadoUsuario")] Usuario usuario)
         {
+
             if (id != usuario.IdUsuario)
             {
                 return NotFound();
